@@ -2,20 +2,22 @@ print('{:=^50}'.format(' EXE 045 '))
 import random
 
 maquina = random.choice(['pedra','papel','tesoura'])
-print('{:-^50}'.format(' JOGO PEDRA, PAPEL E TESOURA '))
+print('{:-^50}'.format(' JOGO JOKENPÔ '), end='\n\n')
 jogador = int(input('''Escolha a sua jogada:
 [1] Pedra
 [2] Papel
 [3] Tesoura
 R: '''))
+# JOGADAS ERROR
 if not (jogador == 1 or jogador == 2 or jogador == 3 ):
     print('JOGADA ERRADA! Não existe essa jogada.')
-# Jogadas pedra.
-if maquina == 'pedra' and jogador == 1:
+# JOGADAS EMPATE
+if((maquina == 'pedra' and jogador == 1) or (maquina == 'papel' and jogador == 2) or (maquina == 'tesoura' and jogador == 3)):
     print('EMPATE')
-elif maquina == 'pedra' and jogador == 2:
-    print('JOGADOR VENCEDOR')
-elif maquina == 'pedra' and jogador == 3:
-    print('MAQUINA VENCEDORA')
-# Jogadas papel
-
+# JOGADAS JOGADOR VITORIA
+elif((maquina == 'pedra' and jogador == 2) or (maquina == 'papel' and jogador == 3) or (maquina == 'tesoura' and jogador == 1)):
+    print('VITORIA DO JOGADOR')
+else:
+    print('VITORIA DA MAQUINA')
+print(('-' * 50), end='\n')
+print('=' * 50)
