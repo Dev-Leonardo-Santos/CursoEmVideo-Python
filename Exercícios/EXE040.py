@@ -6,7 +6,7 @@ num2 = float(input('2° nota: '))
 if not (0 <= num1 <= 10 and 0 <= num2 <= 10):
     print('Notas inválidas!')
 media = (num1 + num2) / 2
-print(f'Media: {media}')
+print(f'Media: {media:.1f}')
 print('-' * 50)
 if media < 5:
     print('O aluno está REPROVADO!')

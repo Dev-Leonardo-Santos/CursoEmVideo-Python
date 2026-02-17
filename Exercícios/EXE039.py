@@ -9,16 +9,20 @@ hoje = date.today()
 ano_atu = hoje.year
 idade = ano_atu - ano_nas
 if idade == 18:
-    print(f'{nome}, esta na hora de se alistar e servir a patria!')
+    print(f'{nome}, esta na hora de se alistar e servir a patria.')
+    print('Se aliste IMEDIATAMENTE!')
 elif idade < 18:
     dif = 18 - idade
     print('Ainda não esta na hora de se alistar.')
     print(f'Falta {dif} anos para os seu alistamento.')
+    print(f'Seu alistamento vai ser em {ano_atu + dif}')
 else:
     resp = input('Voce ja se apresentou para o serviço militar? [S/N] ').upper()
     if resp == 'N':
         dif = idade - 18
-        print(f'Voce está em atrado {dif} anos! procure a Junta de Serviço Militar!')
+        print(f'Voce ja deveria ter se alistado há {dif} anos!')
+        print ('Procure IMEDIATAMENTE a Junta de Serviço Militar!')
+        print(f'Seu Alistamento foi em {ano_atu - dif}')
     elif resp == 'S':
         print('Voce está em dia com a pátria!')
     else:
