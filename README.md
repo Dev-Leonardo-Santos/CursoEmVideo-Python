@@ -1,7 +1,7 @@
 # Curso em Video - Python 🐍
 ---
 Repositório feito para guardar **todos os exercícios** feitos no curso de phython.
-Minha primeira linguagem de programação, começando assim do zero e venho fazendo **todo dia** (ou quase todo dia kk), anotando o que aprendi, testando e evoluindo aos poucos.
+Minha primeira linguagem de programação, começando do zero fazendo **todo dia** (ou quase todo dia kk) os exercícios, anotando o que aprendi, testando e evoluindo aos poucos.
 ### Porque que isso aqui?
 - [x] Documentar minha evolução 🚀
 - [x] Praticar commit todo dia (para criar o hábito)
