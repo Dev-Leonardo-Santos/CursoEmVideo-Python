@@ -1,5 +1,5 @@
-print('{:=^50}'.format(' EXE 045 '))
 import random
+print('{:=^50}'.format(' EXE 045 '))
 
 maquina = random.choice(['pedra','papel','tesoura'])
 print('{:-^50}'.format(' JOGO JOKENPÔ '), end='\n\n')

@@ -7,7 +7,7 @@ b = float(input('Segundo  segmento: '))
 c = float(input('Terceiro segmento: '))
 if a < b + c and b < a + c and c < a + b:
     print('Os segmentos acima PODEM FORMAR triângulo!')
-    if a == b and a == c:
+    if a == b == c:
         print('E formam um triângulo EQUILÁTERO.')
     elif a != b and b!= c and a != c:
         print('E formam um triângulo ESCALENO.')
