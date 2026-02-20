@@ -8,4 +8,4 @@ Minha primeira linguagem de programação, começando do zero fazendo **todo dia
 - [x] Quem sabe ajudar alguém que está começando também
 
 Se curtir, dá uma estrela ⭐ ai pra motivar.
-Me acompanha lá no x: [@leo_o_dev](https://www.instagram.com/leo_o_dev/) tambem, ajuda ai 😁
+Me acompanha lá no insta [@leo_o_dev](https://www.instagram.com/leo_o_dev/) tambem, ajuda ai 😁
